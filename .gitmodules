@@ -1,0 +1,4 @@
+[submodule "packages/util"]
+	path = packages/util
+	url = https://github.com/proteinjs/util.git
+	branch = main
