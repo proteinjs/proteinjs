@@ -2,3 +2,7 @@
 	path = packages/util
 	url = https://github.com/proteinjs/util.git
 	branch = main
+[submodule "packages/reflection"]
+	path = packages/reflection
+	url = https://github.com/proteinjs/reflection.git
+	branch = main
