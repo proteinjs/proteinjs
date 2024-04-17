@@ -10,3 +10,7 @@
 	path = packages/build
 	url = https://github.com/proteinjs/build.git
 	branch = main
+[submodule "packages/serializer"]
+	path = packages/serializer
+	url = https://github.com/proteinjs/serializer.git
+	branch = main
