@@ -24,6 +24,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.3.1'
+
+      - name: Pull submodules
+        run: |
+          git submodule update --init --recursive --remote
       
       - name: Install root package
         run: |
