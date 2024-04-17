@@ -24,20 +24,15 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.3.1'
-
-      - name: Set yarn version (berry)
-        run: |
-          corepack enable
-          yarn set version 4.1.1
       
-      - name: Install packages
+      - name: Install root package
         run: |
-          yarn install
+          npm i
       
       - name: Build packages
         run: |
-          yarn workspaces foreach --all --topological --exclude typescript-parser run build
+          npx build-workspace
 
       - name: Test packages
         run: |
-          yarn workspaces foreach --all --exclude typescript-parser run test
+          npx test-workspace
