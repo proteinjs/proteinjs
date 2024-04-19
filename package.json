@@ -2,13 +2,13 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "clean-workspace": "clean-workspace",
-    "build-workspace": "build-workspace",
-    "test-workspace": "test-workspace",
+    "clean-workspace": "workspace clean --skip=typescript-parser",
+    "build-workspace": "build-workspace --no-build=typescript-parser",
+    "test-workspace": "workspace test --skip=typescript-parser",
     "watch-workspace": "watch-workspace"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.0.10",
+    "@proteinjs/build": "^1.0.15",
     "lerna": "8.1.2"
   }
 }
