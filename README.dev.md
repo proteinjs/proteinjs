@@ -9,3 +9,8 @@
 
 1. `git submodule add -b main https://github.com/proteinjs/repository.git packages/repository`
 2. Push the changes
+
+## Change remote of repo
+
+1. `git remote set-url origin https://github.com/proteinjs/some-repo.git`
+2. (optional) Check remote `git remote -v`
