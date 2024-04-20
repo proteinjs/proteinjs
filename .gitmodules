@@ -42,3 +42,7 @@
 	path = packages/workflow
 	url = https://github.com/proteinjs/workflow.git
 	branch = main
+[submodule "packages/app-template"]
+	path = packages/app-template
+	url = https://github.com/proteinjs/app-template.git
+	branch = main
