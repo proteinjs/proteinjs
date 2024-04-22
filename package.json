@@ -5,10 +5,11 @@
     "clean-workspace": "workspace clean --skip=typescript-parser",
     "build-workspace": "build-workspace --no-build=typescript-parser",
     "test-workspace": "workspace test --skip=typescript-parser",
-    "watch-workspace": "watch-workspace"
+    "watch-workspace": "watch-workspace",
+    "version-workspace": "version-workspace"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.0.16",
+    "@proteinjs/build": "^1.0.17",
     "lerna": "8.1.2"
   }
 }
