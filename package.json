@@ -9,7 +9,7 @@
     "version-workspace": "version-workspace"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.0.25",
+    "@proteinjs/build": "^1.0.27",
     "lerna": "8.1.2"
   }
 }
