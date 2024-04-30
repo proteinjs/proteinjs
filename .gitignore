@@ -3,3 +3,4 @@ dist/
 .yarn/
 .npmrc
 **/generated/
+.DS_Store
