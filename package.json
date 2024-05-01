@@ -10,7 +10,7 @@
     "workspace-package": "workspace-package"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.1.3",
+    "@proteinjs/build": "^1.2.0",
     "lerna": "8.1.2"
   }
 }
