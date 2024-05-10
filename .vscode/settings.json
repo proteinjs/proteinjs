@@ -1,3 +1,9 @@
 {
-  "scm.repositories.visible": 20
+  "scm.repositories.visible": 20,
+  "editor.foldingImportsByDefault": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true,
+  "eslint.enable": true,
+  "eslint.format.enable": true,
+  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }]
 }

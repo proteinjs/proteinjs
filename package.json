@@ -7,7 +7,8 @@
     "test-workspace": "workspace test --skip=typescript-parser",
     "watch-workspace": "watch-workspace",
     "version-workspace": "version-workspace",
-    "workspace-package": "workspace-package"
+    "workspace-package": "workspace-package",
+    "lint-workspace": "lint-workspace --skip=typescript-parser"
   },
   "devDependencies": {
     "@proteinjs/build": "^1.2.1",
