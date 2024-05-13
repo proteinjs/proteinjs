@@ -3,15 +3,17 @@
   "private": true,
   "scripts": {
     "clean-workspace": "workspace clean --skip=typescript-parser",
-    "build-workspace": "build-workspace --no-build=typescript-parser",
+    "build-workspace": "build-workspace --no-build=typescript-parser --no-lint=typescript-parser",
     "test-workspace": "workspace test --skip=typescript-parser",
     "watch-workspace": "watch-workspace",
     "version-workspace": "version-workspace",
+    "setup-workspace": "npm run clean-workspace && npm run build-workspace && npm run test-workspace",
     "workspace-package": "workspace-package",
+    "symlink-workspace": "symlink-workspace",
     "lint-workspace": "lint-workspace --skip=typescript-parser"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.2.1",
+    "@proteinjs/build": "^1.5.1",
     "lerna": "8.1.2"
   }
 }
