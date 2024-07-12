@@ -46,3 +46,7 @@
 	path = packages/app-template
 	url = https://github.com/proteinjs/app-template.git
 	branch = main
+[submodule "packages/notifications"]
+	path = packages/notifications
+	url = https://github.com/proteinjs/notifications.git
+	branch = main
