@@ -1,52 +1,52 @@
 [submodule "packages/util"]
 	path = packages/util
-	url = git@github.com:proteinjs/util.git
+	url = https://github.com/proteinjs/util.git
 	branch = main
 [submodule "packages/reflection"]
 	path = packages/reflection
-	url = git@github.com:proteinjs/reflection.git
+	url = https://github.com/proteinjs/reflection.git
 	branch = main
 [submodule "packages/build"]
 	path = packages/build
-	url = git@github.com:proteinjs/build.git
+	url = https://github.com/proteinjs/build.git
 	branch = main
 [submodule "packages/serializer"]
 	path = packages/serializer
-	url = git@github.com:proteinjs/serializer.git
+	url = https://github.com/proteinjs/serializer.git
 	branch = main
 [submodule "packages/db"]
 	path = packages/db
-	url = git@github.com:proteinjs/db.git
+	url = https://github.com/proteinjs/db.git
 	branch = main
 [submodule "packages/server"]
 	path = packages/server
-	url = git@github.com:proteinjs/server.git
+	url = https://github.com/proteinjs/server.git
 	branch = main
 [submodule "packages/user"]
 	path = packages/user
-	url = git@github.com:proteinjs/user.git
+	url = https://github.com/proteinjs/user.git
 	branch = main
 [submodule "packages/service"]
 	path = packages/service
-	url = git@github.com:proteinjs/service.git
+	url = https://github.com/proteinjs/service.git
 	branch = main
 [submodule "packages/conversation"]
 	path = packages/conversation
-	url = git@github.com:proteinjs/conversation.git
+	url = https://github.com/proteinjs/conversation.git
 	branch = main
 [submodule "packages/ui"]
 	path = packages/ui
-	url = git@github.com:proteinjs/ui.git
+	url = https://github.com/proteinjs/ui.git
 	branch = main
 [submodule "packages/workflow"]
 	path = packages/workflow
-	url = git@github.com:proteinjs/workflow.git
+	url = https://github.com/proteinjs/workflow.git
 	branch = main
 [submodule "packages/app-template"]
 	path = packages/app-template
-	url = git@github.com:proteinjs/app-template.git
+	url = https://github.com/proteinjs/app-template.git
 	branch = main
 [submodule "packages/notifications"]
 	path = packages/notifications
-	url = git@github.com:proteinjs/notifications.git
+	url = https://github.com/proteinjs/notifications.git
 	branch = main
