@@ -13,7 +13,7 @@
     "lint-workspace": "lint-workspace --skip=typescript-parser"
   },
   "devDependencies": {
-    "@proteinjs/build": "^1.5.1",
+    "@proteinjs/build": "^2.7.0",
     "lerna": "8.1.2"
   }
 }
